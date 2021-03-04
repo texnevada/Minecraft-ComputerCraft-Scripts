@@ -10,6 +10,7 @@
 --Put the modem name inbetween the qoutes.
 Reactor = "BigReactors-Reactor_0" --Change value to your reactor
 Monitor = "monitor_0" --Change value to your monitor
+RefreshTime = 1 --In seconds. Do not use qoutes here
 ------------------------------------------------------------------
 
 --Defines the local reactor
@@ -130,5 +131,5 @@ while true do
     ------------------------------------------------
 
     --Do not delete lines below. Code will break.
-    sleep(1)
+    sleep(RefreshTime)
 end

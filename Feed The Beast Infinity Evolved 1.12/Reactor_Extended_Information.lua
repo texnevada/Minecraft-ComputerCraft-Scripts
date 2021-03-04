@@ -189,6 +189,6 @@ while true do
     mon.setTextColor(colors.blue)
     mon.write("By Nevada Skies Inc TM")
 
-    sleep(1)
+    sleep(RefreshTime)
 
 end
