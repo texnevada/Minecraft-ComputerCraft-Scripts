@@ -5,10 +5,12 @@
 --This was made for FTB infinity Evolved MC Version 1.12.*
 --This script recommends a 2x3 monitor setup
 
+----------CONFIG--------------------------------------------------
 --Fill the following config before proceeding 
 --Put the modem name inbetween the qoutes.
 Reactor = "BigReactors-Reactor_0" --Change value to your reactor
 Monitor = "monitor_0" --Change value to your monitor
+------------------------------------------------------------------
 
 --Defines the local reactor
 local reactor = peripheral.wrap(Reactor)
