@@ -13,7 +13,7 @@ Monitor = "monitor_0" --Change value to your monitor
 --Defines the local reactor
 local reactor = peripheral.wrap(Reactor)
 --Defines the local monitor
-local mon = peripheral.wrap(Monitor) --here
+local mon = peripheral.wrap(Monitor)
 --clears the monitor
 mon.clear()
 
