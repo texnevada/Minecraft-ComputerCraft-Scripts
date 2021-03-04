@@ -21,12 +21,11 @@ mon.clear()
 
 --Start of a loop
 while true do
+    mon.clear()
+    --Change text scale here if you so wish.
+    mon.setTextScale(1)
     --Checks to see if reactor is not connected
     if reactor.getConnected() == nil then
-        mon.clear()
-        --Change text scale here if you so wish.
-        mon.setTextScale(1)
-
         --if getConnected == nil then the code breaks.
         --So error code comes first to compensate.
         --If there is connection. This code will not be
