@@ -8,7 +8,7 @@
 ----------CONFIG--------------------------------------------------
 --Fill the following config before proceeding 
 --Put the modem name inbetween the qoutes.
-Reactor = "BigReactors-Reactor_0" --Change value to your reactor
+Reactor = "bigger-reactor_0" --Change value to your reactor
 Monitor = "monitor_0" --Change value to your monitor
 RefreshTime = 1 --In seconds. Do not use qoutes here
 ------------------------------------------------------------------
@@ -17,8 +17,6 @@ RefreshTime = 1 --In seconds. Do not use qoutes here
 local reactor = peripheral.wrap(Reactor)
 --Defines the local monitor
 local mon = peripheral.wrap(Monitor)
---clears the monitor
-mon.clear()
 
 --Start of a loop
 while true do
