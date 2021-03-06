@@ -6,7 +6,7 @@
 ----------CONFIG----------------------------------------------------------
 --Fill the following config before proceeding 
 --Put the modem name inbetween the qoutes.
-Reactor = "BigReactors-Reactor_0" --Edit the number to your reactor here
+Reactor = "bigger-reactor_0" --Edit the number to your reactor here
 Monitor = "monitor_0" --Edit the number to your monitor here
 RefreshTime = 1 --In seconds. Do not use qoutes here
 --------------------------------------------------------------------------
